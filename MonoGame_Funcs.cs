@@ -44,7 +44,7 @@ namespace things
 		/// <param name="color"></param>
 		void FillBox(int x, int y, int w, int h, Color color)
 		{
-			spr.Draw(pixel, new Rectangle(x, y, w, h), color);
+			spriteBatch.Draw(pixel, new Rectangle(x, y, w, h), color);
 		}
 		
 	}
